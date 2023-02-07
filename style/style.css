@@ -1,0 +1,37 @@
+html{
+    height: 99%;
+    width: 99%;
+}
+
+body{
+    height: 99%;
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main{
+    background-color: none;
+
+}
+
+#progressBar{
+    height: 40px;
+    width: 300px;
+    border: 3px solid red;
+    padding: 2px 2px;
+    border-radius: 30px;
+}
+
+#progressContent{
+    height: 100%;
+    max-width: 100%;
+    background-color: red;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
